@@ -34,6 +34,8 @@ Callbacks
 """
 VISIBLE_COLS = [
     db_schema.Metadata.scanNumber,
+    db_schema.Catalog.sample_name,
+    db_schema.Catalog.aperture,
     db_schema.Metadata.user_name,
     db_schema.Metadata.date,
     db_schema.Metadata.notes,
